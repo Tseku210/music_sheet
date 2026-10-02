@@ -92,8 +92,8 @@ final class Syllable {
   final LyricLane lane;
   final int slice;
 
-  /// x of the text's origin from the slice line. A single syllable is
-  /// centred on its head, and a syllable that starts a melisma is aligned
+  /// x of the text's origin from the slice line. A syllable is centred on
+  /// its head, and one whose extender reaches past that note is aligned
   /// left with it.
   final double dx;
 
